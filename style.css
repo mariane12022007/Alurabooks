@@ -7,3 +7,27 @@ body {
 h1 {
     background-color: write;
 }    
+.cabeçalho_menu-haburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+@import url("styles/header.css");
+}
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+.cabeçalho {
+    background-color: var(--branco);
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
