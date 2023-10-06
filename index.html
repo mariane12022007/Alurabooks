@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <head class="cabeçalho">
-        <span class="cabeçalho_menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="Logo do Alurabooks">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho decompras"></a>
-        <a href="#"><img src="img/Usario.svg" alt="Meu perfil"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alurabooks</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel=”preconnect” href=”https://fonts.googleapis.com”>
+        <link rel=”preconnect” href=”https://fonts.gstatic.com” crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display= swap" rel=”stylesheet”>
+        <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="header.css">
     </head>
-</body>
-     <head class="cabeçalho">
-        <div class="container">
-            <body>
-                <header class="cabeçalho">
-                    <div class="container">
-                        <input type="checkbox" id="menu" class="container_botao">
-                        <img src="img/logo.svg" alt="Logo da Alurabooks" class="container_imagem">
-                    </div>
- <body>
+    <body>
         <header class="cabeçalho">
-        <div class="container">
-            <input type="checkbox" id="menu" class="container_botao">
-            <label for="menu">
-                <span class="cabeçalho_menu hamburguer container_imagem"></span> 
-            </label>
-            <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">        
-        </div>
+            <div class="container">
+                <input type="checkbox" id="Menu" class="container_botao">
+                <label for="Menu">
+                    <span class="cabeçalho_menu container_imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu_titulo">Categorias</li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Programação</a>
+                    </li>
+                    <li class="lista-menu_item">        
+                        <a href="#" class="lista-menu_link">Front-End</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Infraestrutura</a>0
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Business</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Design & UX</a>
+                    </li>
+                </ul>
 
+                <img src="./Imagens/Polygon 1 (Stroke).png" alt="Logo do Alurabooks" class="container_imagem">
+            </div>      
 
+            <div class="container">      
+                <a href="#"><img src="./Imagens/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+                <a href="#"><img src="./Imagens/Sacola.png" alt="Compras" class="container_imagem"></a>
+                <a href="#"><img src="./Imagens/Usuario.png" alt="Perfil" class="container_imagem"></a>        
+            </div>
+        </header>
+        <section class=”carrossel”>
+            <h2 class=”carrossel__titulo”>Novos lançamentos</h2>
+            <div class=”swiper”>
+                <!-- Additional required wrapper -->
+                <div class=”swiper-wrapper”>
+                <!-- Slides -->
+                <div class=”swiper-slide”>Slide 1</div>
+                <div class=”swiper-slide”>Slide 2</div>
+                <div class=”swiper-slide”>Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class=”swiper-pagination”></div>
+                <!-- If we need navigation buttons -->
+                <div class=”swiper-button-prev”></div>
+                <div class=”swiper-button-next”></div>
+                <!-- If we need scrollbar -->
+                <div class=”swiper-scrollbar”></div>
+            </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
 
-
-        
-    </header>
-
-
-                   
-                    </div>
-                </header>
-            </body>
-            <span class="cabeçalho_menu-hamburguer"></span>
-            <img src="img/Logo.svg" alt="Logo da Alurabooks">
-        </div>
-        <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-        </div>
-     </head>
-     <head class="cabeçalho">
-        <div class="container">
-            <span class="cabeçalho_menu-hamburguer container_imagem"></span>
-            <img src="img/Logo.svg" alt="Logo do Alurabooks" class="container_imagem">
-        </div>
-        <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container_imagem"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
-        </div>
-     </head>
-     
+        </script>
+    </body>
 </html>
